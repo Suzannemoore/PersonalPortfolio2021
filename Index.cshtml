@@ -1,0 +1,136 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] Suzanne Moore | Portfolio </title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+        <title> Suzanne Moore | Portfolio  </title>
+        <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <main>
+        <section class="main-intro">
+            <h2>Thank you for vising my personal portfolio!</h2>
+            <br /><h4>Hi! My name is Suzanne and I am an aspiring software developer</h4><br /><br /><br />
+
+            <form method="get" action="/Contact">
+
+                <button class="btn">Contact Me?</button>
+
+            </form>
+
+        </section>
+
+        <section id="great">
+        </section>
+
+        <section id="mainInfo">
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="/icons/tools.svg" alt="" />
+                    </div>
+                    <h4>Tools</h4>
+                    <ul style="list-style-type:none;">
+                        <li> &hearts; Visual Studio Code</li>
+                        <li> &hearts; Visual Studio</li>
+                        <li> &hearts; WordPress</li>
+                        <li> &hearts; NetBeans</li>
+                        <li> &hearts; PyCharm</li>
+                        <li> &hearts; Postman</li>
+                        <li> &hearts; GIMP</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="/icons/database.svg" alt="" />
+                    </div>
+                    <h4>Database</h4>
+                    <ul style="list-style-type:none;">
+                        <li>&hearts; MySQL Workbench</li>
+                        <li>&hearts; MySQL</li>
+
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./icons/systems.svg" alt="" />
+                    </div>
+                    <h4>Operating Systems & Cloud</h4>
+                    <ul style="list-style-type:none;">
+                        <li>&hearts; Linix</li>
+                        <li>&hearts; AWS</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./icons/languages.svg" alt="" />
+                    </div>
+                    <h4>Languages</h4>
+                    <ul style="list-style-type:none;">
+                        <li>&hearts; HTML/CSS</li>
+                        <li>&hearts; JavaScript</li>
+                        <li>&hearts; Python</li>
+                        <li>&hearts; C++</li>
+                        <li>&hearts; C#</li>
+                    </ul>
+                </div>
+            </div>
+
+            <header class="mainInfo-quote">
+                <h3>"I am always doing what I can't do yet in order to learn how to do it ".</h3>
+                <h3>
+                    - Vincent Van Gogh
+                </h3>
+            </header>
+
+        </section>
+
+        <footer>
+            <div class="footer-wrapper">
+                <h5>Suzanne Moore</h5>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Suzannemoore" title="twitter-social-media">
+                            <img src="./icons/github.svg" alt="twitter-social-media" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/suzanne-moore-b66409211/" title="youtube-social-media">
+                            <img src="./icons/linkedin.svg" alt="youtube-social-media" />
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+
+    </main>
+
+    @*Resize*@
+    <style>
+
+        .body-container {
+            /*remove the container default padding attribute*/
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            /*increase width as per your need*/
+            max-width: 100%;
+        }
+    </style>
+
+</body>
+
+</html>

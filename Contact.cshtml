@@ -1,0 +1,85 @@
+﻿@page
+@model WebsiteHotel.Pages.ContactModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Suzanne Moore | Portfolio </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <title> Suzanne Moore | Portfolio </title>
+    <link rel="stylesheet" href="~/css/ContactStyle.css" />
+</head>
+
+<body>
+
+    <section id="contactInfo">
+        <header class="contactInfo-head">
+
+            <br /><br /><h1> Contact Me? </h1>
+        </header>
+    </section>
+
+    <section id="userQuestions">
+        <header class="userQuestions-head">
+            <h4>
+                <br /> Feel free to contact me today!  <br />
+            </h4>
+
+            <hr class="section-break">
+            <h3>
+                <br />I am avalible Wednesday-Friday, 10:00am - 5:00pm Central Time (CT): 1-228-493-5682‬ <br />
+
+                <br /> Or simply contact me by email at: suzannemoorewrk@gmail.com<br />
+            </h3>
+
+            <hr class="section-break"><br/>
+
+            <h3>
+                PDF Resume?
+                <a href="~/img/Moore-Suzanne_Resume.pdf"> Click here to open my resume</a>
+            </h3>
+            
+
+        </header>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <h5>Suzanne Moore</h5>
+            <ul>
+                <li>
+                    <a href="https://github.com/Suzannemoore" title="twitter-social-media">
+                        <img src="./icons/github.svg" alt="twitter-social-media" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/suzanne-moore-b66409211/" title="youtube-social-media">
+                        <img src="./icons/linkedin.svg" alt="youtube-social-media" />
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+    @*Resize*@
+    <style>
+
+        .body-container {
+            /*remove the container default padding attribute*/
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            /*increase width as per your need*/
+            max-width: 100%;
+        }
+    </style>
+
+</body>
+</html>
