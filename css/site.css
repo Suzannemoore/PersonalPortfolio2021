@@ -1,0 +1,245 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 61.3%;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+button{
+    padding: 2rem 4rem;
+    font-size: 1.9rem;
+    cursor: pointer;
+    border-radius: 8px;
+   
+}
+
+.btn {
+    padding: 2rem 4rem;
+    font-size: 1.9rem;
+    cursor: pointer;
+    color: white;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #90c7c1;
+    position: relative;
+    z-index: 1;
+    background-color: #333;
+}
+
+    .btn:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .btn:before {
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: "";
+        background-color: #90c7c1;
+        
+    }
+
+.btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.nav-item {
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    nav ul {
+        display: flex;
+        flex: 1 1 40rem;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+#logo {
+    flex: 2 1 40rem;
+    font-size: 3.9rem;
+    font-family: 'Style Script', cursive;
+    font-weight: 400;
+  
+}
+
+.main-intro {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/kb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .main-intro h4 {
+        padding: 4rem;
+    }
+
+#great {
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), transparent), url("../img/great.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*layout form media*/
+@media screen and (max-width: 932px){
+    html{
+        font-size: 30%;
+    }
+    nav{
+        text-align:center;
+    }
+    #Logo{
+        padding: 1rem;
+    }
+}
+
+
+.mainInfo-quote {
+    background: #393E46;
+    padding: 3rem;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+    .mainInfo-quote h3 {
+        padding: 1rem;
+        font-family: 'Style Script', cursive;
+    }
+
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 35vh;
+    margin: 2rem 3rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cards img {
+    max-width: 15%;
+    margin: 2rem;
+}
+
+.card h4,
+.card p {
+    padding: 1rem;
+    line-height: 1.8;
+}
+
+.card-icon {
+    background: #90c7c1
+}
+
+footer {
+    color: white;
+    background: rgba(19, 28, 39, 1);
+    font-family: 'Style Script', cursive;
+    font-weight: 400;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 15vh;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    flex: 1 1 20rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 0 0 10rem;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,203 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects h3 {
+    font-size: 2.2rem;
+    background: #90c7c1;
+    color: #fff !important;
+    padding: 10px;
+    outline: #90c7c1 solid 3px;
+    outline-offset: 3px;
+    margin: auto 0px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.projects {
+    padding: 2rem 16rem;
+    color: #333;
+}
+
+    .projects p {
+        
+        font-family: brandon-grotesque;
+    }
+
+html {
+    font-size: 61.3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    a, a:visited {
+        color: #90c7c1;
+        text-decoration: none;
+    }
+
+.nav-item {
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    nav ul {
+        display: flex;
+        flex: 1 1 40rem;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+p {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 7.8rem;
+    font-family: 'Style Script', cursive;
+}
+
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+}
+
+h5 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item {
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    nav ul {
+        display: flex;
+        flex: 1 1 40rem;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+#logo {
+    flex: 2 1 40rem;
+    font-size: 3.9rem;
+    font-family: 'Style Script', cursive;
+    font-weight: 400;
+}
+
+#introProjects {
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), transparent), url("../img/dreams.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.introProjects-head {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+    .introProjectso-head h2 {
+        padding: 1rem 0rem;
+        text-align: center;
+    }
+
+    .introProjects-head h3 {
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+
+
+.-head {
+    width: 90%;
+    margin: auto;
+}
+
+/*layout form media*/
+@media screen and (max-width: 932px) {
+    html {
+        font-size: 30%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    #Logo {
+        padding: 1rem;
+    }
+}
+
+
+footer {
+    color: white;
+    background: rgba(19, 28, 39, 1);
+    font-family: 'Style Script', cursive;
+    font-weight: 400;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 15vh;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    flex: 1 1 20rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 0 0 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
